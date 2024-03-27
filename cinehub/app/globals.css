@@ -137,7 +137,7 @@
 }
 
 .category-title {
-  @apply text-heading3-bold text-white;
+  @apply text-heading3-bold text-white z-50;
 }
 
 .movie-list {

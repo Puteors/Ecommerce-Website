@@ -1,6 +1,5 @@
 "use client";
 import { Search } from "@mui/icons-material";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -11,7 +10,7 @@ const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
 
   const handleScroll = () => {
-    if (window.screenY > 10) {
+    if (window.scrollY > 20) {
       setIsScrolled(true);
     } else setIsScrolled(false);
   };
