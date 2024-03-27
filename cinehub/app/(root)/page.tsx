@@ -6,7 +6,7 @@ import { Genre } from "@libs/types";
 
 const Home = async () => {
   const genres = await fetchGenreMovies();
-  const ex = genres.slice(0, 3)
+  const ex = genres.slice(2, 4)
   return (
     <div>
       <Navbar />
